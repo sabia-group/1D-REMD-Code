@@ -1,0 +1,25 @@
+#Input parameters; T is 300 K in atomic units; tstep is 0.5 fs in atomictime; tau is 20 fs in atomictime; mass is protonmass in electronmass
+#For replica exchange: length of temperature array corresponds to the number of replicas 
+#temperature = 0.00095
+#temperature = 0.001584
+#temperature = 0.002533
+#temperature = 0.00006334
+#temperature = 0.00095 0.001267 0.001583 0.002058 0.002533
+#temperature = 1.266724625e-04 1.900086938e-04 2.533449250e-04 3.166811563e-04 4.750217344e-04
+#temperature = 0.000950 0.001085 0.001240 0.001417 0.001618 0.001848 0.002110 0.002408 0.002744 0.003124
+#temperature = 0.002 0.00267 0.00383 0.003558 0.00433
+temperature = 0.00095004 0.00101423 0.00108276 0.00115595 0.00123404 0.00131746 0.00140648 0.00150151 0.00160298 0.00171128 0.00182693 0.00195038 0.00208218 0.00222288 0.00237308 0.00253345
+time_step = 10.33
+total_steps = 1000
+Nbeads = 64
+mass = 1836.1527
+potential = oscillating_voth
+thermostat = PILE_L
+#tau = 800
+#tau = 807.3
+tau = 400
+name_file = my_simulation
+mode = in
+exstride = 1
+
+
