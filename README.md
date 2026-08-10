@@ -1,6 +1,8 @@
 # 1D-REMD-Code
 Run REMD simulations with one particle in simple 1D model systems 
 
+Code is based on previous work of Jorge Castro and Mariana Rossi. Some extensions regarding replica exchange has been made by Jan Mohr. 
+
 Description
 
 This GitHub repository contains a Python implementation of a 1-dimensional Path Integral Molecular Dynamics (PIMD) that allows you to simulate the quantum dynamics of a single particle with an arbitrary mass moving in a 1D potential. Further it is also possible to run mpi-based Replica Exchange MD and also a combination of Replica Exchange with PIMD. Most Notably it contains a version of fluctation-rescaling Replica Exchange, that rescales the bead fluctuations around the centroid such that the acceptance criterion is no longer dependent on the spring term.  
